@@ -1,6 +1,98 @@
 <!DOCTYPE html>
 <html>
-  <head> </head>
-  <h1>Mustafa DOGAN</h1>
-  <body></body>
+  <head>
+    <title>My Web Site</title>
+    <style>
+      .navbar-btn {
+        padding: 12px 24px;
+        border: none;
+        background: linear-gradient(90deg, rgb(120, 112, 203), rgb(240, 5, 36));
+        color: #cb1b1b;
+        margin: 10px;
+        border-top-left-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+      .navbar a:hover {
+        color: #f8f6f6;
+        float: right;
+      }
+      .navbar a {
+        color: #000;
+        float: right;
+      }
+      .navbar {
+        float: right;
+      }
+      .sidebar {
+        background-color: lightslategrey;
+        float: left;
+        width: 150px;
+        height: 350px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .sidebar li {
+        list-style: none;
+        color: #fff;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .sidebar a:hover {
+        color: red;
+      }
+      .nav {
+        float: left;
+      }
+      .homapage {
+        float: left;
+      }
+      .footer {
+        position: absolute;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px 0;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        clear: both;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="nav">
+      <img src="Daco_4501272.png" alt="basket" width="30px" />
+    </div>
+    <div class="homepage">
+      <img src="homepage.png" width="30px" alt="hompage" />
+    </div>
+    <nav class="navbar">
+      <button class="navbar-btn"><a href="">I am</a></button>
+      <button class="navbar-btn"><a href="">Family</a></button>
+      <button class="navbar-btn"><a href="">Work</a></button>
+      <button class="navbar-btn"><a href="">Hobby</a></button>
+      <button class="navbar-btn"><a href="">Contact</a></button>
+    </nav>
+    <br />
+    <hr />
+    <main>
+      <section>
+        <aside class="sidebar">
+          <h3>Categories</h3>
+          <ul>
+            <li><a href="#">Life</a></li>
+            <li><a href="#">Pictures</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Future</a></li>
+          </ul>
+        </aside>
+      </section>
+    </main>
+    <section>
+      <h2>Slideshow</h2>
+      <p></p>
+    </section>
+    <footer class="footer">
+      <p>&copy; My life</p>
+    </footer>
+  </body>
 </html>
